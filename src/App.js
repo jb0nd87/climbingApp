@@ -48,6 +48,7 @@ export default class App extends React.Component {
 							</Route>
 							<Route path='/climbs'>
 								<Climbs climbs={this.state.articles} />
+								<Form />
 							</Route>
 							<Route path='/about'>
 								<About />
