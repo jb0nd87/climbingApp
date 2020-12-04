@@ -7,6 +7,7 @@ import About from './Components/About/About';
 import { client } from './client';
 import Climbs from './Components/Climbs/Climbs';
 import Footer from './Components/Footer/Footer';
+import Form from './Components/Form/Form'
 
 export default class App extends React.Component {
 	state = {

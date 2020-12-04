@@ -13,7 +13,7 @@ const Form = (props) => {
 
 	const handleChange = (event) => {
 		console.log('handleChange clicked');
-		const title = event.target.value;
+		const name = event.target.value;
 		setClimbName(name);
 	};
 
